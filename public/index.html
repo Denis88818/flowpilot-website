@@ -463,6 +463,8 @@ html:not(.js) .pre{display:none}
   .js .rv,.js .fade-up,.js .fc{opacity:1;transform:none;filter:none}
   .js .hero h1 .w>span{transform:none}
 }
+/* short desktop viewports (e.g. 1440x778 laptops) */
+@media (max-height:880px) and (min-width:901px){.hero{padding-top:96px;padding-bottom:6svh}.hero h1{font-size:clamp(46px,9.5svh,104px);margin:18px 0 16px}.fc.hide-md{display:none}}
 </style>
 </head>
 <body>
@@ -537,7 +539,7 @@ html:not(.js) .pre{display:none}
   <div class="floats" aria-hidden="true">
     <div class="fc" style="right:3%;top:34%;animation-delay:-4s"><div class="ring"></div><div><b>94%</b>trafnych dopasowań AI</div></div>
     <div class="fc" style="right:2.5%;top:52%;animation-delay:-2s"><span class="av a3">MN</span><div><b>Michał Nowak</b>Java Developer · <span class="m">92% match</span></div></div>
-    <div class="fc hide-md" style="left:46%;top:58%;animation-delay:-5s"><div class="fc-stack"><span class="av a1">AK</span><span class="av a4">KZ</span><span class="av a6">+</span></div><div><b>+3 200</b>kandydatów w bazie</div></div>
+    <div class="fc hide-md" style="left:max(62%,880px);top:72%;animation-delay:-5s"><div class="fc-stack"><span class="av a1">AK</span><span class="av a4">KZ</span><span class="av a6">+</span></div><div><b>+3 200</b>kandydatów w bazie</div></div>
   </div>
 
 
